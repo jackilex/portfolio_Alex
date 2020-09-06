@@ -52,9 +52,32 @@ flex: 2 1 40rem;
 color: red;
 }
 
+footer{
+min-height: 5vh;
+color: whitesmoke;
+background-color: rgba(23, 26, 55, 1);
+border-top: .11rem solid rgb(255, 165, 0);
+}
+
+.footer-wrapper{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.footer-wrapper h5{
+flex: 1 1 40rem;
+font-size: 1.5rem;
+}
+.footer-wrapper ul{
+  flex: 1 1 40rem;
+  list-style: none;
+
+}
+
 .bio-head{
 background-color: rgba(23, 26, 55, 1);
-min-height: 90vh;
+min-height: 70vh;
 }
 
 /* main{
@@ -68,12 +91,12 @@ margin: auto;
 }
 .photo{
 display: flex;
-flex: 1 1 40rem;
+flex: 1 1 35rem;
 align-items: flex-end;
 }
 .paragraph{
 display: flex;
-flex: 1 1 40rem;
+flex: 1 1 35rem;
 flex-direction: column;
 justify-content: center;
 text-align: center;
@@ -207,6 +230,95 @@ z-index: 1;
 }
 
 
+
+/* Contact me section */
+
+#contact{
+  display: flex;
+  min-height: 85vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(23, 26, 55, 1);
+}
+
+.form-wrapper{
+  background-color: rgb(255, 165, 0,0.8);
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0px 10px 10px rgba(16, 30, 233, 0.5), 0px 20px 20px rgba(16, 30, 233, 0.3);
+}
+
+.form-head{
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+form{
+  padding: 2rem;
+  text-align: center;
+}
+
+.reason-form,
+.name-form,
+.email-form{
+  padding: 2rem;
+  text-align: center;
+ 
+}
+
+.name-form label,
+.email-form label,
+.reason-form label{
+ margin: 1rem;
+ font-size: 1.6rem;
+}
+
+.reason-form input{
+  min-height: 15rem;
+ }
+
+ .reason-form label{
+align-items: flex-start;
+ 
+}
+
+.submit{
+  width: 30%;
+  border-radius: 15px;
+  color: whitesmoke;
+  background-color: rgba(23, 26, 55, 1);
+  font-size: 2rem;
+  padding: 1rem;
+  margin-left: 8rem;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: rgb(131, 142, 248);
+}
+
+
+/* resume section */
+.resume-head{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(23, 26, 55, 1);
+  
+}
+
+.resume-wrapper{
+  height: 80%;
+  width: 70%;
+  box-shadow: 0px 10px 10px rgba(46, 60, 250, 0.5), 0px 20px 20px rgba(16, 30, 233, 0.5);
+}
+
+
+
 @media screen and (max-width: 952px) {
     html {
         font-size: 45%;
@@ -228,7 +340,15 @@ z-index: 1;
     width: 15rem;
     left: 60%;
   }
+  .form-wrapper{
+    width: 100%;
+  }
 
+  .resume-wrapper{
+    width: 100%;
+  }
+
+ 
 
 }
 
