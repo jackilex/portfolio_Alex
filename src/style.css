@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* converts the 10rem = 10px */
+  html {
+    font-size: 62.5%;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color:rgba(23, 26, 55, 1) */
+  }
+
+main,article,aside{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#navHead{
+background-color: rgba(23, 26, 55, 1);
+border-bottom: .11rem solid rgb(255, 165, 0);
+}
+
+nav{
+min-height: 10vh;
+padding: 2rem;
+display: flex;
+width: 90%;
+margin: auto;
+align-items: center;
+flex-wrap: wrap;
+}
+
+nav ul{
+display: flex;
+flex: 1 1 40rem;
+justify-content: space-around;
+list-style: none;
+align-items: center;
+font-size: 1.8rem;
+} 
+#logo{
+/* display: flex; */
+text-align: start;
+flex: 2 1 40rem;
+color: red;
+}
+
+.bio-head{
+background-color: rgba(23, 26, 55, 1);
+min-height: 90vh;
+}
+
+/* main{
+
+} */
+.bio-Info{
+display: flex;
+color: red ;
+width: 90%;
+margin: auto;
+}
+.photo{
+display: flex;
+flex: 1 1 40rem;
+align-items: flex-end;
+}
+.paragraph{
+display: flex;
+flex: 1 1 40rem;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.aside-container{
+display: flex;
+flex: 1 1 40rem;
+flex-direction: column;
+}
+
+#photo{
+border-radius: 50%;;
+width: 10rem;
+height: 10rem;
+}
+
+#aboutMe{
+word-wrap: break-word;
+}
+.side-container{
+display: flex;
+flex: 1 1 40rem;
+color: white;
+}
+
+.art{
+position: absolute;
+top: 0%;
+right: 0%;
+height: 15rem;   
+}
+
+.mount{
+top: 65%;
+left: 69%;
+width: 15rem;
+z-index: 1;
+}
+
+.sun{
+    top: 65%;
+    left: 80%;
+    width: 8rem;
+    height: 8rem;
+    z-index: 0;
+    animation: sunAnimation 8s infinite alternate linear;
+    }
+
+.cloud-1{
+    top: 65%;
+    left: 70%;
+    width: 6rem;
+    height: 5rem;
+    z-index: 0;
+    animation: cloudAnimation 4s infinite alternate ease-in-out;
+    }
+.cloud-2{
+    top: 60%;
+    left: 75%;
+    width: 6rem;
+    height: 5rem;
+    z-index: 1;
+    animation: cloudAnimation 3.5s infinite alternate ease-in-out;
+    }
+
+
+@keyframes cloudAnimation {
+  from {
+    transform: translate(-40%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
+}
+
+@keyframes sunAnimation {
+    from {
+      transform: translate(-90%,-90%);
+    }
+    to {
+      transform: translate(20%, 20%);
+    }
+  }
+
+/* card section */
+.cards{
+ /* background-color:rgba(23, 26, 55, 1) ; */
+ min-height: 50vh;
+ width: 90%;
+ margin: auto;
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 3rem;
+}
+
+.card img{
+    max-width: 50%;
+    margin: 2rem;
+}
+
+.card{
+    background-color: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    flex:2 1 25rem;
+    margin: 2rem 5rem;
+    min-height: 40vh;
+    /* min-width: 22vw; */
+    /* max-height: 40vh; */
+    /* max-width: 35%; */
+    background-color:rgba(23, 26, 55, 1) ;
+    box-shadow: 0px 10px 10px rgba(16, 30, 233, 0.5), 0px 20px 20px rgba(16, 30, 233, 0.3);
+    border-radius: 15px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.github{
+  color: rgb(73, 248, 88);
+  
+}
+
+.chrome{
+  color: rgb(248, 58, 58);
+  
+}
+
+
+@media screen and (max-width: 952px) {
+    html {
+        font-size: 45%;
+      }
+
+  nav{
+    text-align: center;
+ 
+  }
+  #logo{
+      padding: 1rem;
+      color: orange;
+      text-align: center;
+    
+  } 
+  
+  .mount{
+    height: 10rem;
+    width: 15rem;
+    left: 60%;
+  }
+
+
+}
+
+@media screen and (max-width: 350px) {
+/* #main-container{
+    display: flex;
+    flex-direction: row;
+} */
+ /* .side-container{
+     display: none;
+ } */
+ .photo{
+    display: flex;
+    flex: 1 1 20rem;
+    align-items: flex-end;
+    }
+
+}

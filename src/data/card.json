@@ -1,0 +1,40 @@
+[
+    {
+        "Title":"Dog Date",
+        "gif":"https://i.ibb.co/x1C177D/dogdate-gif.gif",
+        "description":"Dog Date creates a way to set up a profile for you and your furry friend to find the perfect playmate.",
+        "id":1,
+        "link":"https://jiberjiber.github.io/dog-date/",
+        "elements": "to be verified",
+        "github":"https://github.com/jiberjiber/dog-date"
+    },
+    {
+        "Title":"Current Weather and Forcast",
+        "gif":"https://i.ibb.co/qCsMD6Z/wheathergif.gif",
+        "description":"Getting your city current weather and forecast is a must for every adult. Add this free weather app to your bookmark and stay updated!!",
+        "id":2,
+        "link":"https://jackilex.github.io/myweatherjackilexforecast/",
+        "elements": "to be verified",
+        "github":"https://github.com/jackilex/myweatherjackilexforecast"
+    }
+    ,
+    {
+        "Title":"Work Day Schedule",
+        "gif":"https://i.ibb.co/zNgHWzz/workday.gif",
+        "description":"Every professional knows that meeting milestone deadlines takes good planing. Use this tool to help you plan your daily tasks.",
+        "id":3,
+        "link":"https://jackilex.github.io/workdayschedule/",
+        "elements": "to be verified",
+        "github":"https://github.com/jackilex/workdayschedule"
+    },
+    {
+        "Title":"Fun Fact Quiz",
+        "gif":"https://i.ibb.co/qjWL4L0/quiz.gif",
+        "description":"Take this fun fact quiz and test your knowledge",
+        "id":4,
+        "link":"https://jackilex.github.io/funfact_quiz/",
+        "elements": "to be verified",
+        "github":"https://github.com/jackilex?tab=repositories"
+    }
+
+]
