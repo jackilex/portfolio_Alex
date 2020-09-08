@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link, NavLink } from "react-router-dom";
+import Logo from "../Icon/logo"
 
 const Nav = () => {
     return ( 
         <div id="navHead" className="navbar">
         <nav id="navContainer">
-        <h1 id="logo" >Alex</h1>
+        <Logo />
           <ul >
             <li >
               <NavLink  to="/about" activeStyle={{color: "orange"}}>About<span></span></NavLink>

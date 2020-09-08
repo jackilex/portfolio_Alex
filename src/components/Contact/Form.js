@@ -1,21 +1,30 @@
 import React, {useState} from 'react';
 import Joi from 'joi-browser'
 import emailjs from 'emailjs-com';
-
+import Contacticons from '../Icon/Contactlinks'
 
 const Contact = () => { 
+
+      
     const [form,setForm]=useState({
         name:"",
         email:"",
         reason:""
     })
     const [errors,setErrors]=useState({})
+    const [formFeedback,setFormFeedback]=useState(false)
+//setting initail state to clear out form after submit
+const clearState={
+name:"",
+email:"",
+reason:""
+}
 
 
     function handleFormChange(e){
        const {name, value}=e.target;
        setForm({...form,[name]:value});
-    
+       setFormFeedback(false)
 
     }
 
@@ -53,15 +62,11 @@ const Contact = () => {
         return
     }
     else{
-    console.log(form)
-    // sendEmail(event)
-    // emailjs.send('service_wvw2ab9', 'template_opke8dj', event.target,'user_9ypoTRBnRuyYOfWj4aRto')
-    // .then(function(response) {
-    //    console.log('SUCCESS!', response.status, response.text);
-    // }, function(error) {
-    //    console.log('FAILED...', error);
-    // });
-    sendEmail(form)
+    // console.log(form)
+    sendEmail(form);
+    setForm({...clearState})
+    
+    setFormFeedback(true)
     }
     }
 
@@ -81,7 +86,9 @@ const Contact = () => {
             <div className="form-wrapper">
             <header className="form-head">
                 <h2>Contact Me</h2>
+                <div className="form-icons"><Contacticons/></div>
             </header>
+            {formFeedback && <h2 className="feedback">Thank You! your form was Submitted</h2>}
             <form >
                 <div className="name-form">
                     <label htmlFor="name">Name</label>

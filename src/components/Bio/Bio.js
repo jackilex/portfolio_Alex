@@ -19,7 +19,7 @@ const Bio = () => {
             <img src={pPhoto} class="" id="photo"  alt="..." />
               </div>
               <div className="paragraph">
-              <p id="aboutMe">My name is Alex Saint Victor, iam a Juniror Developer<br /> with a background
+              <p id="aboutMe">My name is Alex Saint Victor, iam a Juniror Developer<br />  with a background
               in the US Military and Construction Management. I have a passion and enjoy for coding!!
                 </p>
               </div>
