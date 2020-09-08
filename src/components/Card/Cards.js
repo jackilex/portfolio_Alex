@@ -3,6 +3,7 @@ import Card from './Card'
 import Projects from "../../data/card.json"
 
 const Cards = () => {
+
     return ( 
     <div className="cards">
     {Projects.map( project =>(
@@ -11,6 +12,9 @@ const Cards = () => {
     title={project.title}
     image={project.gif}
     description={project.description}
+    github={project.github}
+    website={project.website}
+    topics={project.topic}
      />
     ))}
     </div>

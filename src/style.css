@@ -75,6 +75,15 @@ font-size: 1.5rem;
 
 }
 
+.contacts{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.linked-in{
+  color: whitesmoke;
+}
+
 .bio-head{
 background-color: rgba(23, 26, 55, 1);
 min-height: 85vh;
@@ -327,6 +336,12 @@ button:hover {
   box-shadow: 0px 10px 10px rgba(46, 60, 250, 0.5), 0px 20px 20px rgba(16, 30, 233, 0.5);
 }
 
+
+.topics{
+  color: orange;
+  font-size: 1rem;
+  padding-top: .5rem;
+}
 
 
 @media screen and (max-width: 952px) {

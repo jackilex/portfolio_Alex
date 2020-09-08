@@ -1,40 +1,80 @@
 [
     {
-        "Title":"Dog Date",
+        "title":"Dog Date",
         "gif":"https://i.ibb.co/x1C177D/dogdate-gif.gif",
         "description":"Dog Date creates a way to set up a profile for you and your furry friend to find the perfect playmate.",
         "id":1,
-        "link":"https://jiberjiber.github.io/dog-date/",
+        "website":"https://jiberjiber.github.io/dog-date/",
         "elements": "to be verified",
-        "github":"https://github.com/jiberjiber/dog-date"
+        "github":"https://github.com/jiberjiber/dog-date",
+        "topic":"Google Map API, Socket.io, Open Weather API, Dog API, UI Kit"
     },
     {
-        "Title":"Current Weather and Forcast",
+        "title":"Current Weather and Forcast",
         "gif":"https://i.ibb.co/qCsMD6Z/wheathergif.gif",
         "description":"Getting your city current weather and forecast is a must for every adult. Add this free weather app to your bookmark and stay updated!!",
         "id":2,
-        "link":"https://jackilex.github.io/myweatherjackilexforecast/",
+        "website":"https://jackilex.github.io/myweatherjackilexforecast/",
         "elements": "to be verified",
-        "github":"https://github.com/jackilex/myweatherjackilexforecast"
+        "github":"https://github.com/jackilex/myweatherjackilexforecast",
+        "topic":"jQuery, 3th Party API/moment.js, Local Storage, DOM traversal and manipulation"
     }
     ,
     {
-        "Title":"Work Day Schedule",
+        "title":"Work Day Schedule",
         "gif":"https://i.ibb.co/zNgHWzz/workday.gif",
         "description":"Every professional knows that meeting milestone deadlines takes good planing. Use this tool to help you plan your daily tasks.",
         "id":3,
-        "link":"https://jackilex.github.io/workdayschedule/",
+        "website":"https://jackilex.github.io/workdayschedule/",
         "elements": "to be verified",
-        "github":"https://github.com/jackilex/workdayschedule"
+        "github":"https://github.com/jackilex/workdayschedule",
+        "topic":"jQuery, 3th Party API, Local Storage, HTML and CSS"
+        
     },
     {
-        "Title":"Fun Fact Quiz",
+        "title":"Fun Fact Quiz",
         "gif":"https://i.ibb.co/qjWL4L0/quiz.gif",
-        "description":"Take this fun fact quiz and test your knowledge",
+        "description":"Test your KNowledge with this fun fact Quiz",
         "id":4,
-        "link":"https://jackilex.github.io/funfact_quiz/",
+        "website":"https://jackilex.github.io/funfact_quiz/",
         "elements": "to be verified",
-        "github":"https://github.com/jackilex?tab=repositories"
+        "github":"https://github.com/jackilex/funfact_quiz",
+        "topic":"Local storage"
+        
+    },
+    {
+        "title":"Note Taker",
+        "gif":"https://i.ibb.co/P9d8mbk/Note-Taker.gif",
+        "description":"an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
+        "id":5,
+        "website":"https://immense-tor-95431.herokuapp.com/",
+        "elements": "to be verified",
+        "github":"https://github.com/jackilex/NoteTaker",
+        "topic":"Express back-end, HTML Routes"
+        
+    },
+    {
+        "title":"Burger World- Node Express Handlebars",
+        "gif":"https://i.ibb.co/JdHs6jL/Sample-Full-Stack-Sample.gif",
+        "description":"burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).",
+        "id":6,
+        "website":"https://gentle-retreat-10706.herokuapp.com/",
+        "elements": "to be verified",
+        "github":"https://github.com/jackilex/burger_world",
+        "topic":"MySql, Node, Express back-end, Handlebars "
+        
+    },
+    {
+        "title":"Employee Directory",
+        "gif":"https://i.ibb.co/phtWzzF/React-App.gif",
+        "description":"employee directory with React. It requiree to break up my application's UI into components, manage component state, and respond to user event",
+        "id":7,
+        "website":"https://jackilex.github.io/react-directory/",
+        "elements": "to be verified",
+        "github":"https://github.com/jackilex/react-directory",
+        "topic":"React"
+        
     }
+
 
 ]

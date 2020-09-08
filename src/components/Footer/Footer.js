@@ -1,13 +1,15 @@
 import React from 'react';
-import Icons from '../Icon'
+import Contacticons from '../Icon/Contactlinks'
 
 const Footer = () => {
     return ( 
         <footer>
             <div className="footer-wrapper">
-                <h5>Alex Saint Victor &copy;  A React Portfolio</h5>
+                <h5>&copy;  A React Portfolio by Alex Saint Victor</h5>
                 <ul>
-                    <li><a href="#"><Icons/></a></li>
+                    <li className="contacts">
+                    <Contacticons />
+                    </li>
                 </ul>
 
             </div>
