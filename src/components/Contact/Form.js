@@ -96,7 +96,9 @@ reason:""
                     onChange={handleFormChange}
                     id="name"
                     type="input" 
-                    name="name" value={form.name}
+                    name="name" 
+                    value={form.name}
+                    placeholder="Your name"
                     ></input>
                     {errors && <div className="errors">{errors.name}</div>}
                 </div>
@@ -107,6 +109,7 @@ reason:""
                      id="email" 
                      type="email" 
                      name="email"
+                     placeholder="Your email"
                     value={form.email}></input>
                 </div>
                 {errors && <p className="errors">{errors.email}</p>}
@@ -116,7 +119,9 @@ reason:""
                     onChange={handleFormChange} 
                     id="reason"  
                     wrap="soft" 
-                    name="reason" value={form.reason} 
+                    name="reason"
+                    placeholder="Brief description of your inquiry"
+                    value={form.reason} 
                     ></textarea>
                     {errors && <div className="errors">{errors.reason}</div>}
                 </div>
