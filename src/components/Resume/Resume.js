@@ -1,7 +1,7 @@
 import React from 'react';
-import Viewer, { RenderToolbar, Slot } from '@phuocng/react-pdf-viewer';
-import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
-import file from '../../data/resume.pdf'
+// import Viewer, { RenderToolbar, Slot } from '@phuocng/react-pdf-viewer';
+// import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
+// import file from '../../data/resume.pdf'
 // import { Worker } from '@phuocng/react-pdf-viewer';
 
 
@@ -45,7 +45,7 @@ const Resume = () => {
         {/* <div className="resume-wrapper">
             <Viewer id='resume-viewer' fileUrl={process.env.PUBLIC_URL + '/myresume.pdf'} layout={layout} />
         </div> */}
-        <iframe src="https://drive.google.com/file/d/1uVNUm2R4RwceDnNfzZGqIWJSuyJVJb2X/preview" width="640" height="480"></iframe>
+        <iframe className="resume-wrapper" src="https://drive.google.com/file/d/1uVNUm2R4RwceDnNfzZGqIWJSuyJVJb2X/preview" width="700" height="480"></iframe>
     </section>
      );
 }
