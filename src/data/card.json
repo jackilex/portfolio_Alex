@@ -1,10 +1,10 @@
 [
     {
         "title":"Dog Date",
-        "gif":"https://i.ibb.co/x1C177D/dogdate-gif.gif",
-        "description":"Dog Date creates a way to set up a profile for you and your furry friend to find the perfect playmate.",
+        "gif":"https://i.ibb.co/8gTdphy/Dog-Date-New-Friends-For-Your-Pet.gif",
+        "description":"Dog Date creates a way to set up a profile for you and your furry friend to find the perfect playmate. in this website you can find the nearest park, Get updated weather and send messages to other users",
         "id":1,
-        "website":"https://jiberjiber.github.io/dog-date/",
+        "website":"http://dog-date.herokuapp.com/",
         "elements": "to be verified",
         "github":"https://github.com/jiberjiber/dog-date",
         "topic":"Google Map API, Socket.io, Open Weather API, Dog API, UI Kit"

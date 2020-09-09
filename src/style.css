@@ -99,9 +99,10 @@ min-height: 85vh;
 } */
 .bio-Info{
 display: flex;
-color: red ;
+color: white ;
 width: 90%;
 margin: auto;
+font-size: 2.5rem;
 }
 .photo{
 display: flex;
@@ -115,6 +116,15 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 }
+#nameBio, 
+#cert,
+#programming{
+  color: black;
+/* background-color: yellowgreen; */
+background: rgb(164,186,44);
+background: linear-gradient(90deg, rgba(164,186,44,1) 0%, rgba(244,241,8,1) 100%);
+}
+
 .aside-container{
 display: flex;
 flex: 1 1 40rem;
@@ -157,6 +167,7 @@ z-index: 1;
     height: 8rem;
     z-index: 0;
     animation: sunAnimation 8s infinite alternate linear;
+    filter: drop-shadow(0 0 20px rgb(207, 211, 21));
     }
 
 .cloud-1{
@@ -166,6 +177,7 @@ z-index: 1;
     height: 5rem;
     z-index: 0;
     animation: cloudAnimation 4s infinite alternate ease-in-out;
+    filter: drop-shadow(0 0 5px rgb(240, 240, 240));
     }
 .cloud-2{
     top: 60%;
@@ -174,7 +186,8 @@ z-index: 1;
     height: 5rem;
     z-index: 1;
     animation: cloudAnimation 3.5s infinite alternate ease-in-out;
-    }
+    filter: drop-shadow(0 0 5px rgb(240, 240, 240));
+  }
 
 
 @keyframes cloudAnimation {
@@ -218,12 +231,10 @@ z-index: 1;
     flex:2 1 25rem;
     margin: 2rem 5rem;
     min-height: 40vh;
-    /* min-width: 22vw; */
-    /* max-height: 40vh; */
-    /* max-width: 35%; */
     background-color:rgba(23, 26, 55, 1) ;
     box-shadow: 0px 10px 10px rgba(16, 30, 233, 0.5), 0px 20px 20px rgba(16, 30, 233, 0.3);
     border-radius: 15px;
+    font-size: 1.5rem;
 }
 
 .links{
@@ -362,7 +373,7 @@ button:hover {
 
 .topics{
   color: orange;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   padding-top: .5rem;
 }
 
@@ -400,14 +411,35 @@ button:hover {
 
 }
 
-@media screen and (max-width: 350px) {
-/* #main-container{
+@media screen and (max-width: 414px) {
+
+  html {
+    font-size: 55%;
+  }
+  .bio-info{
     display: flex;
-    flex-direction: row;
-} */
- /* .side-container{
-     display: none;
- } */
+    flex-wrap: wrap;
+   
+}
+ .side-container{
+display: none;
+ }
+ .aside-container{
+  
+}
+
+.bio-head{
+ min-height: 83vh;
+}
+
+#main-container{
+  align-items: center;
+  /* flex-wrap: wrap;
+  margin: auto;
+  height: auto; */
+  
+}
+
  .photo{
     display: flex;
     flex: 1 1 20rem;

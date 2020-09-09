@@ -19,8 +19,8 @@ const Bio = () => {
             <img src={pPhoto} class="" id="photo"  alt="..." />
               </div>
               <div className="paragraph">
-              <p id="aboutMe">My name is Alex Saint Victor, iam a Juniror Developer<br />  with a background
-              in the US Military and Construction Management. I have a passion and enjoy for coding!!
+              <p id="aboutMe">My name is <span id="nameBio">Alex Saint Victor{" "}</span>,<br /> i am a certified <span id="cert">Full-stack Web Developer{" "}</span> with a background
+              in the US Military and Construction Management. I have a passion for creating, <span id="programming">programming and designing Web applications{" "}</span>.
                 </p>
               </div>
           </div>
