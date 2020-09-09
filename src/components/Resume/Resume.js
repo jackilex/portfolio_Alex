@@ -43,7 +43,7 @@ const Resume = () => {
     return ( 
     <section className="resume-head">
         <div className="resume-wrapper">
-            <Viewer id='resume-viewer' fileUrl={file} layout={layout} />
+            <Viewer id='resume-viewer' fileUrl={process.env.PUBLIC_URL + '/myresume.pdf'} layout={layout} />
         </div>
     </section>
      );

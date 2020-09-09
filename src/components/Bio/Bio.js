@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Bio = () => {
-    const pPhoto=require("../../assets/photo.jpg");
+    // const pPhoto=require("../../assets/photo.jpg");
     const cloud1=require("../../assets/cloud-1.png");
     const cloud2=require("../../assets/cloud-2.png");
     const sun=require("../../assets/sun.png");
@@ -16,7 +16,7 @@ const Bio = () => {
             <div  className="aside-container">
               <div className="photo">
                 {/* <h2>Top</h2> */}
-            <img src={pPhoto} class="" id="photo"  alt="..." />
+            <img src={process.env.PUBLIC_URL + '/myphoto.jpg'} class="" id="photo"  alt="..." />
               </div>
               <div className="paragraph">
               <p id="aboutMe">My name is <span id="nameBio">Alex Saint Victor{" "}</span>,<br /> i am a certified <span id="cert">Full-stack Web Developer{" "}</span> with a background
