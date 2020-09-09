@@ -15,11 +15,11 @@ const Nav = () => {
               <NavLink to="./portfolio" activeStyle={{color: "orange"}}>Portfolio</NavLink>
             </li>
             <li>
-              <NavLink  to="./contact" activeStyle={{color: "orange"}}>Contact</NavLink>
-            </li>
-            <li>
               <NavLink to="./resume" activeStyle={{color: "orange"}}>Resume</NavLink>
-            </li>            
+            </li> 
+            <li>
+              <NavLink  to="./contact" activeStyle={{color: "orange"}}>Contact</NavLink>
+            </li>           
           </ul>
       </nav>     
       </div>
