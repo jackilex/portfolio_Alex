@@ -27,10 +27,10 @@ const Bio = () => {
           </div>
 
           <div className="side-container">
-            <img src={mount} class="mount art"  alt="..." />
-            <img src={sun} class="sun art"  alt="..." />
-            <img src={cloud1} class="cloud-1 art"  alt="..." />
-            <img src={cloud2} class="cloud-2 art"  alt="..." />
+            <img src="https://i.ibb.co/HXkjYQS/mountain.png" class="mount art"  alt="..." />
+            <img src="https://i.ibb.co/jG09jT5/sun.png" class="sun art"  alt="..." />
+            <img src="https://i.ibb.co/nL7z4BP/cloud-1.png" class="cloud-1 art"  alt="..." />
+            <img src="https://i.ibb.co/zFbQ6pz/cloud-2.png" class="cloud-2 art"  alt="..." />
             </div>
           </div>
         </main>
