@@ -1,4 +1,4 @@
-
+readme4
 # Read Me Template
 
 ### Table of Contents
@@ -14,12 +14,12 @@
 ---
 
 ## Description
-This is is a portfolio that showcases my projects and resume
+This project intent is to showcase a MERN(MongoDb,Express,React,Node) Stack. This website allows you to seacrh for a book, save a book, create libraries and add books to your created libraries
 
 
 ---
 ## Installation
-Follow this link https://jackilex.github.io/portfolio_Alex/
+click this link https://librarybk.herokuapp.com/
 
 
 [Back To The Top](#read-me-template)
@@ -27,7 +27,7 @@ Follow this link https://jackilex.github.io/portfolio_Alex/
 ---
 
 ## How To Use
-Visit my portfolio and fill out the form with your email address and i will contact you
+First search a book, save the book, create a library and add books to your library
 
 [Back To The Top](#read-me-template)
 
@@ -40,7 +40,7 @@ Alex Saint Victor
 ---
 
 ## Test
-used the console to log all errors
+logging out error
 
 [Back To The Top](#read-me-template)
 

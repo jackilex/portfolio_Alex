@@ -45,7 +45,7 @@ const Resume = () => {
         {/* <div className="resume-wrapper">
             <Viewer id='resume-viewer' fileUrl={process.env.PUBLIC_URL + '/myresume.pdf'} layout={layout} />
         </div> */}
-        <iframe className="resume-wrapper" src="https://drive.google.com/file/d/1uVNUm2R4RwceDnNfzZGqIWJSuyJVJb2X/preview" width="700" height="480"></iframe>
+        <iframe className="resume-wrapper" src="https://drive.google.com/file/d/1aByhVol8S55ElZQ96pgkShJYcNZh3KEj/preview" width="700" height="480"></iframe>
     </section>
      );
 }
