@@ -7,7 +7,7 @@
         "id":1,
         "website":"http://www.taskflow.center/",
         "elements": "MERN Stack",
-        "github":"https://github.com/jiberjiber/project3",
+        "github":"https://github.com/jackilex/Task_Flow",
         "topic":"MongoDb, Express, React js, Node js, Authentication & Authorization"
     }, {
         "title":"Library - Book Playlist",
@@ -17,7 +17,7 @@
         "website":"https://librarybk.herokuapp.com/",
         "elements": "MERN Stack",
         "github":"https://github.com/jackilex/google_books",
-        "topic":"MongoDb,Express,React,Noden"
+        "topic":"MongoDb, Express, React, Node"
     },{
         "title":"Dog Date",
         "gif":"https://i.ibb.co/8gTdphy/Dog-Date-New-Friends-For-Your-Pet.gif",
@@ -25,7 +25,7 @@
         "id":3,
         "website":"http://dog-date.herokuapp.com/",
         "elements": "to be verified",
-        "github":"https://github.com/jiberjiber/dog-date",
+        "github":"https://github.com/jackilex/Dog_Date",
         "topic":"Google Map API, Socket.io, Open Weather API, Dog API, UI Kit"
     },
     {
@@ -33,7 +33,7 @@
         "gif":"https://i.ibb.co/qCsMD6Z/wheathergif.gif",
         "description":"Getting your city current weather and forecast is a must for every adult. Add this free weather app to your bookmark and stay updated!!",
         "id":4,
-        "website":"https://jackilex.github.io/myweatherjackilexforecast/",
+        "website":"https://jackilex.github.io/Weather_and_Forcast/",
         "elements": "to be verified",
         "github":"https://github.com/jackilex/myweatherjackilexforecast",
         "topic":"jQuery, 3th Party API/moment.js, Local Storage, DOM traversal and manipulation"
@@ -44,7 +44,7 @@
         "gif":"https://i.ibb.co/zNgHWzz/workday.gif",
         "description":"Every professional knows that meeting milestone deadlines takes good planing. Use this tool to help you plan your daily tasks.",
         "id":5,
-        "website":"https://jackilex.github.io/workdayschedule/",
+        "website":"https://jackilex.github.io/Workday_scheduler/",
         "elements": "to be verified",
         "github":"https://github.com/jackilex/workdayschedule",
         "topic":"jQuery, 3th Party API, Local Storage, HTML and CSS"
@@ -88,7 +88,7 @@
         "gif":"https://i.ibb.co/phtWzzF/React-App.gif",
         "description":"employee directory with React. It requiree to break up my application's UI into components, manage component state, and respond to user event",
         "id":9,
-        "website":"https://jackilex.github.io/react-directory/",
+        "website":"https://jackilex.github.io/react_employee_directory/",
         "elements": "to be verified",
         "github":"https://github.com/jackilex/react-directory",
         "topic":"React"

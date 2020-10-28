@@ -116,6 +116,9 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 }
+.paragraph2{
+  margin-top: 1.5rem;
+}
 #nameBio, 
 #cert,
 #programming{
@@ -133,8 +136,8 @@ flex-direction: column;
 
 #photo{
 border-radius: 50%;;
-width: 10rem;
-height: 10rem;
+width: 15rem;
+height: 15rem;
 }
 
 #aboutMe{

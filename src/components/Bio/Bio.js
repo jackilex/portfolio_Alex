@@ -17,12 +17,15 @@ const Bio = () => {
             <div  className="aside-container">
               <div className="photo">
                 {/* <h2>Top</h2> */}
-            <img src="https://i.ibb.co/7gGZZHW/myphoto.jpg" class="" id="photo"  alt="..." />
+            <img src="https://i.ibb.co/fqjK8Wp/headshot.jpg" class="" id="photo"  alt="..." />
               </div>
               <div className="paragraph">
               <p id="aboutMe">My name is <span id="nameBio">Alex Saint Victor{" "}</span>,<br /> i am a certified <span id="cert">Full-stack Web Developer{" "}</span> with a background
               in the US Military and Construction Management. I have a passion for creating, <span id="programming">programming and designing Web applications.{" "}</span>
                 </p>
+                <div className="paragraph2">
+                <p><span style={{textDecoration: "underline"}}> SKILLS & TECHNOLOGIES:</span> HTML5, CSS, JavaScript ES6+,HTML5, CSS, JavaScript ES6+,Nodejs, MySQL, MongoDB, Testing - Jest</p>
+                </div>
               </div>
           </div>
 
