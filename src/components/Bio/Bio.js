@@ -24,7 +24,7 @@ const Bio = () => {
               in the US Military and Construction Management. I have a passion for creating, <span id="programming">programming and designing Web applications.{" "}</span>
                 </p>
                 <div className="paragraph2">
-                <p><span style={{textDecoration: "underline"}}> SKILLS & TECHNOLOGIES:</span> HTML5, CSS, JavaScript ES6+,HTML5, CSS, JavaScript ES6+,Nodejs, MySQL, MongoDB, Testing - Jest</p>
+                <p><span style={{textDecoration: "underline"}}> SKILLS & TECHNOLOGIES:</span> HTML5, CSS, JavaScript ES6+,React, Nodejs,RESTful APIs, MySQL, MongoDB, Unit Testing, Integration testing, TDD Test</p>
                 </div>
               </div>
           </div>
