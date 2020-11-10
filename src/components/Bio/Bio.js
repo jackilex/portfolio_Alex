@@ -23,7 +23,7 @@ const Bio = () => {
               </div>
               <div className="paragraph">
               <p id="aboutMe"> <span id="nameBio"> My name is Alex Saint Victor{" "},<br /> i am a certified <span id="cert">Full-stack web developer{" "}</span> with a background
-              in the US Military and construction management. I have a passion for creating, <span id="programming">programming and designing Web applications.{" "}</span>
+              in the US Military and construction management. I have a passion for creating, <span id="programming">programming and designing web applications.{" "}</span>
               </span>
               </p>
                 <div className="paragraph2">

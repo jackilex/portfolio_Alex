@@ -1,5 +1,5 @@
 import React from 'react';
-import Contacticons from '../Icon/Contactlinks'
+import ContacticonsF from '../Icon/ContactIconsFooter'
 
 const Footer = () => {
     return ( 
@@ -8,7 +8,7 @@ const Footer = () => {
                 <h5>&copy;  A React Portfolio by Alex Saint Victor</h5>
                 <ul>
                     <li className="contacts">
-                    <Contacticons />
+                    <ContacticonsF />
                     </li>
                 </ul>
 

@@ -86,7 +86,10 @@ reason:""
             <div className="form-wrapper">
             <header className="form-head">
                 <h2>Contact Me</h2>
-                <div className="form-icons"><Contacticons/></div>
+                <p className="information">Have any questions or interrested in working together? Fill out the form and i will get back to you as soon as possible
+                or contact me via email.
+                </p> 
+                {/* <div className="form-icons"><Contacticons/></div> */}
             </header>
             {formFeedback && <h2 className="feedback">Thank You! your form was Submitted</h2>}
             <form >
@@ -114,7 +117,7 @@ reason:""
                 </div>
                 {errors && <p className="errors">{errors.email}</p>}
                 <div className="reason-form">
-                    <label htmlFor="reason">Reason</label>
+                    <label htmlFor="reason">Message</label>
                     <textarea
                     onChange={handleFormChange} 
                     id="reason"  
@@ -127,6 +130,7 @@ reason:""
                 </div>
                 <input onClick={onFormSubmit} className="submit" type="button" value="submit" />
             </form>
+            <div className="form-icons"><Contacticons/></div>
             </div>
         </section>
      );
