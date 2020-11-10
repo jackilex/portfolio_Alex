@@ -121,6 +121,7 @@ color: white ;
 width: 90%;
 margin: auto;
 font-size: 2.5rem;
+padding-bottom: 3rem;
 }
 .photo{
 display: flex;
@@ -490,5 +491,9 @@ display: none;
       font-size: 1.5rem;
   
     }
+    .bio-Info{
+      font-size: 2.0rem;
+     
+      }
 
 }

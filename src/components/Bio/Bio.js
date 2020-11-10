@@ -22,8 +22,9 @@ const Bio = () => {
             <img src="https://i.ibb.co/fqjK8Wp/headshot.jpg" class="" id="photo"  alt="..." />
               </div>
               <div className="paragraph">
-              <p id="aboutMe"> <span id="nameBio"> My name is Alex Saint Victor{" "},<br /> i am a certified <span id="cert">Full-stack web developer{" "}</span> with a background
-              in the US Military and construction management. I have a passion for creating, <span id="programming">programming and designing web applications.{" "}</span>
+              <p id="aboutMe"> <span id="nameBio"> My name is Alex Saint Victor{" "},<br /> I am a certified <span id="cert">Full-stack web developer{" "}</span>
+              from UT Austin with an interest in both front-end and back-end development. I have background
+             construction management and i have served in the US Marine Corps. I have a passion for creating, <span id="programming">programming and designing web applications.{" "}</span>
               </span>
               </p>
                 <div className="paragraph2">
