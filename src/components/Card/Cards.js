@@ -1,10 +1,13 @@
 import React from 'react';
 import Card from './Card'
 import Projects from "../../data/card.json"
+import ParticlesComp from "../Particles";
+
 
 const Cards = () => {
 
     return ( 
+        <React.Fragment>
     <div className="cards">
     {Projects.map( project =>(
     <Card 
@@ -18,6 +21,8 @@ const Cards = () => {
      />
     ))}
     </div>
+    <ParticlesComp bg="#FFFFFF" color="#171a37"/>
+    </React.Fragment>
      );
 }
  

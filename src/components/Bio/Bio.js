@@ -1,4 +1,5 @@
 import React from 'react';
+import ParticlesComp from "../Particles";
 
 
 const Bio = () => {
@@ -11,6 +12,7 @@ const Bio = () => {
 
 
     return (
+      <React.Fragment>
       <div className="bio-head">
         <main id="main-container">
             <div className="bio-Info">
@@ -20,24 +22,28 @@ const Bio = () => {
             <img src="https://i.ibb.co/fqjK8Wp/headshot.jpg" class="" id="photo"  alt="..." />
               </div>
               <div className="paragraph">
-              <p id="aboutMe">My name is <span id="nameBio">Alex Saint Victor{" "}</span>,<br /> i am a certified <span id="cert">Full-stack Web Developer{" "}</span> with a background
-              in the US Military and Construction Management. I have a passion for creating, <span id="programming">programming and designing Web applications.{" "}</span>
-                </p>
+              <p id="aboutMe"> <span id="nameBio"> My name is Alex Saint Victor{" "},<br /> i am a certified <span id="cert">Full-stack web developer{" "}</span> with a background
+              in the US Military and construction management. I have a passion for creating, <span id="programming">programming and designing Web applications.{" "}</span>
+              </span>
+              </p>
                 <div className="paragraph2">
-                <p><span style={{textDecoration: "underline"}}> SKILLS & TECHNOLOGIES:</span> HTML5, CSS, JavaScript ES6+,React, Nodejs,RESTful APIs, MySQL, MongoDB, Unit Testing, Integration testing, TDD Test</p>
+                <p><span id="nameBio"><span style={{textDecoration: "underline"}}> SKILLS & TECHNOLOGIES:</span> HTML5, CSS, JavaScript ES6+, React, Node.js, RESTful APIs, MySQL, MongoDB, Unit Testing, Integration testing, TDD Test</span></p>
                 </div>
               </div>
           </div>
 
           <div className="side-container">
-            <img src="https://i.ibb.co/HXkjYQS/mountain.png" class="mount art"  alt="..." />
-            <img src="https://i.ibb.co/jG09jT5/sun.png" class="sun art"  alt="..." />
-            <img src="https://i.ibb.co/nL7z4BP/cloud-1.png" class="cloud-1 art"  alt="..." />
-            <img src="https://i.ibb.co/zFbQ6pz/cloud-2.png" class="cloud-2 art"  alt="..." />
+            {/* <img src="https://i.ibb.co/HXkjYQS/mountain.png" class="mount art"  alt="..." /> */}
+            {/* <img src="https://i.ibb.co/jG09jT5/sun.png" class="sun art"  alt="..." /> */}
+            {/* <img src="https://i.ibb.co/nL7z4BP/cloud-1.png" class="cloud-1 art"  alt="..." /> */}
+            {/* <img src="https://i.ibb.co/zFbQ6pz/cloud-2.png" class="cloud-2 art"  alt="..." /> */}
             </div>
           </div>
         </main>
       </div> 
+      <ParticlesComp color="#FFA500"/>
+      </React.Fragment>
+
      );
 }
  

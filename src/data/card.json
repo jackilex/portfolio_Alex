@@ -3,25 +3,25 @@
     {
         "title":"TaskFlow",
         "gif":"https://i.ibb.co/6yH5GBj/TaskFlow.gif",
-        "description":"This website allows you as a small business to create projects and assign the tasks of the project to your team",
+        "description":"This website allows you as a small business to create projects and assign the tasks of the project to your team.",
         "id":1,
         "website":"http://www.taskflow.center/",
         "elements": "MERN Stack",
         "github":"https://github.com/jackilex/Task_Flow",
-        "topic":"MongoDb, Express, React js, Node js, Authentication & Authorization"
+        "topic":"MongoDb, Express, React js, Node.js, Authentication & Authorization"
     }, {
         "title":"Library - Book Playlist",
         "gif":"https://i.ibb.co/hBFhDSV/React-App-1.gif",
-        "description":"This website allows you to seacrh for a book, save a book, create libraries and add books to your created libraries",
+        "description":"This website allows you to seacrh for a book, save a book, create libraries and add books to your created libraries.",
         "id":2,
         "website":"https://librarybk.herokuapp.com/",
         "elements": "MERN Stack",
         "github":"https://github.com/jackilex/google_books",
-        "topic":"MongoDb, Express, React, Node"
+        "topic":"MongoDb, Express, React, Node.js"
     },{
         "title":"Dog Date",
         "gif":"https://i.ibb.co/8gTdphy/Dog-Date-New-Friends-For-Your-Pet.gif",
-        "description":"Dog Date creates a way to set up a profile for you and your furry friend to find the perfect playmate. in this website you can find the nearest park, Get updated weather and send messages to other users",
+        "description":"Dog Date creates a way to set up a profile for you and your furry friend to find the perfect playmate. in this website you can find the nearest park, Get updated weather and send messages to other users.",
         "id":3,
         "website":"http://dog-date.herokuapp.com/",
         "elements": "to be verified",
@@ -31,7 +31,7 @@
     {
         "title":"Current Weather and Forcast",
         "gif":"https://i.ibb.co/qCsMD6Z/wheathergif.gif",
-        "description":"Getting your city current weather and forecast is a must for every adult. Add this free weather app to your bookmark and stay updated!!",
+        "description":"Getting accurate weather is a must for every adult. Add this free weather app to your bookmark and stay updated!!",
         "id":4,
         "website":"https://jackilex.github.io/Weather_and_Forcast/",
         "elements": "to be verified",
@@ -53,7 +53,7 @@
     {
         "title":"Fun Fact Quiz",
         "gif":"https://i.ibb.co/qjWL4L0/quiz.gif",
-        "description":"Test your KNowledge with this fun fact Quiz",
+        "description":"Test your Knowledge with this fun fact Quiz.",
         "id":6,
         "website":"https://jackilex.github.io/funfact_quiz/",
         "elements": "to be verified",
@@ -64,29 +64,29 @@
     {
         "title":"Note Taker",
         "gif":"https://i.ibb.co/P9d8mbk/Note-Taker.gif",
-        "description":"an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
+        "description":"Is an application that can be used to write, save, and delete notes. This application will use express in the backend to make http calls to save and retrieve notes/data from database.",
         "id":7,
         "website":"https://immense-tor-95431.herokuapp.com/",
         "elements": "to be verified",
         "github":"https://github.com/jackilex/NoteTaker",
-        "topic":"Express back-end, HTML Routes"
+        "topic":"Express, HTTP Routes"
         
     },
     {
-        "title":"Burger World- Node Express Handlebars",
+        "title":"Burger World",
         "gif":"https://i.ibb.co/JdHs6jL/Sample-Full-Stack-Sample.gif",
-        "description":"burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).",
+        "description":"Burger logger with MySQL, Node.js, Express, Handlebars and a homemade ORM (yum!).",
         "id":8,
         "website":"https://gentle-retreat-10706.herokuapp.com/",
         "elements": "to be verified",
         "github":"https://github.com/jackilex/burger_world",
-        "topic":"MySql, Node, Express back-end, Handlebars "
+        "topic":"MySql, Node.js, Express back-end, Handlebars "
         
     },
     {
         "title":"Employee Directory",
         "gif":"https://i.ibb.co/phtWzzF/React-App.gif",
-        "description":"employee directory with React. It requiree to break up my application's UI into components, manage component state, and respond to user event",
+        "description":"This employee directory was created using React; it allows the user to be able to filter employees by name to access to their information.",
         "id":9,
         "website":"https://jackilex.github.io/react_employee_directory/",
         "elements": "to be verified",
