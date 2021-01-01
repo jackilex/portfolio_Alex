@@ -8,7 +8,7 @@
         "website":"http://www.taskflow.center/",
         "elements": "MERN Stack",
         "github":"https://github.com/jackilex/Task_Flow",
-        "topic":"MongoDb, Express, React js, Node.js, Authentication & Authorization"
+        "topic":"MongoDb, Express, React.js, Node.js, Authentication & Authorization"
     }, {
         "title":"Library - Book Playlist",
         "gif":"https://i.ibb.co/hBFhDSV/React-App-1.gif",
@@ -17,7 +17,7 @@
         "website":"https://librarybk.herokuapp.com/",
         "elements": "MERN Stack",
         "github":"https://github.com/jackilex/google_books",
-        "topic":"MongoDb, Express, React, Node.js"
+        "topic":"MongoDb, Express, React.js, Node.js"
     },{
         "title":"Dog Date",
         "gif":"https://i.ibb.co/8gTdphy/Dog-Date-New-Friends-For-Your-Pet.gif",
@@ -91,7 +91,7 @@
         "website":"https://jackilex.github.io/react_employee_directory/",
         "elements": "to be verified",
         "github":"https://github.com/jackilex/react-directory",
-        "topic":"React"
+        "topic":"React.js"
         
     }
 
