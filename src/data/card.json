@@ -29,17 +29,6 @@
         "topic":"Google Map API, Socket.io, Open Weather API, Dog API, UI Kit"
     },
     {
-        "title":"Current Weather and Forcast",
-        "gif":"https://i.ibb.co/qCsMD6Z/wheathergif.gif",
-        "description":"Getting accurate weather is a must for every adult. Add this free weather app to your bookmark and stay updated!!",
-        "id":4,
-        "website":"https://jackilex.github.io/Weather_and_Forcast/",
-        "elements": "to be verified",
-        "github":"https://github.com/jackilex/myweatherjackilexforecast",
-        "topic":"jQuery, 3th Party API/moment.js, Local Storage, DOM traversal and manipulation"
-    }
-    ,
-    {
         "title":"Work Day Schedule",
         "gif":"https://i.ibb.co/zNgHWzz/workday.gif",
         "description":"Every professional knows that meeting milestone deadlines takes good planing. Use this tool to help you plan your daily tasks.",
@@ -70,17 +59,6 @@
         "elements": "to be verified",
         "github":"https://github.com/jackilex/NoteTaker",
         "topic":"Express, HTTP Routes"
-        
-    },
-    {
-        "title":"Burger World",
-        "gif":"https://i.ibb.co/JdHs6jL/Sample-Full-Stack-Sample.gif",
-        "description":"Burger logger with MySQL, Node.js, Express, Handlebars and a homemade ORM (yum!).",
-        "id":8,
-        "website":"https://gentle-retreat-10706.herokuapp.com/",
-        "elements": "to be verified",
-        "github":"https://github.com/jackilex/burger_world",
-        "topic":"MySql, Node.js, Express back-end, Handlebars "
         
     },
     {
