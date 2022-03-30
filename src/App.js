@@ -7,13 +7,13 @@ import Contact from './components/Contact';
 import Bio from './components/Bio'
 import Resume from "./components/Resume"
 import Footer from './components/Footer'
-import { Worker } from '@phuocng/react-pdf-viewer';
-import Particles from 'react-particles-js'; 
-import ParticlesBg from 'particles-bg'
+// import { Worker } from '@phuocng/react-pdf-viewer'; needs updaste
+// import Particles from 'react-tsparticles'; 
+// import ParticlesBg from 'particles-bg'
 function App() {
   
   return (
-  <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.4.456/build/pdf.worker.min.js"> 
+  // <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.4.456/build/pdf.worker.min.js"> 
   <Fragment>
   <Nav />
   <Switch>
@@ -27,7 +27,7 @@ function App() {
   </Switch>
   <Footer/>
   </Fragment>
-  </Worker>
+  // </Worker>
 
   );
 }

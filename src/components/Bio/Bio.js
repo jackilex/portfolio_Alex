@@ -19,17 +19,22 @@ const Bio = () => {
             <div  className="aside-container">
               <div className="photo">
                 {/* <h2>Top</h2> */}
-            <img src="https://i.ibb.co/fqjK8Wp/headshot.jpg" class="" id="photo"  alt="..." />
+            <img src="https://drive.google.com/uc?export=view&id=169C8stG0-EFkdmX_NqLup6O5n1h_SDMG" class="" id="photo"  alt="profile" />
               </div>
               <div className="paragraph">
-              <p id="aboutMe"> <span id="nameBio"> My name is Alex Saint Victor{" "},<br /> I am a certified <span id="cert">Full-stack web developer{" "}</span>
-              from UT Austin with an interest in both front-end and back-end development. I have a background
-             in construction management and i served in the US Marine Corps. I have a passion for creating, <span id="programming">programming and designing web applications.{" "}</span>
+                  <p id="aboutMe"> <span id="nameBio">
+                  My name is Alex Saint Victor{" "},<br /> I am a Full Stack Software Engineer and a US Marine Corps Veteran with a background in
+                Construction Management. I have knowledge and skills in both Front End and Back End
+               web development. I am Passionate about creating web applications to solve business
+              challenges and streamline redundant processes. <span id="programming">programming and designing web applications.{" "}</span>
               </span>
               </p>
-                <div className="paragraph2">
-                <p><span id="nameBio"><span style={{textDecoration: "underline"}}> SKILLS & TECHNOLOGIES:</span> HTML5, CSS, JavaScript ES6+, React.js, Node.js, RESTful APIs, MySQL, MongoDB, Unit Testing, Integration testing, TDD Test</span></p>
-                </div>
+                {/* <div className="paragraph2">
+                    <p>
+                      <span id="nameBio"><span style={{ textDecoration: "underline" }}> SKILLS & TECHNOLOGIES:
+                      </span> HTML5, CSS, JavaScript ES6+, React.js, Node.js, RESTful APIs, MySQL, MongoDB, Unit Testing, Integration testing, TDD Test</span>
+                    </p>
+                </div> */}
               </div>
           </div>
 
